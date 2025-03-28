@@ -18,7 +18,7 @@ const Navbar = () => {
     return (
         <div>
             <div className="navbar">
-                <div className="navbar-logo">Wev dev mastry</div>
+                <div className="navbar-logo">BK</div>
                 <ul className={`navbar-links ${isOpen ? 'active' : ''}`}>
                     <button className='close-drawer' onClick={closeDrower}><FaTimes /></button>
                     <li><Link to={'/'} onClick={closeDrower}>Home</Link></li>
